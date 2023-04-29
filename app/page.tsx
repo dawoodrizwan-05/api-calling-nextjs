@@ -14,7 +14,7 @@ async function getQuote() {
 export default async function Home() {
   const quote = await getQuote();
   console.log("quote", quote);
-return <h1 >Hello! ALOOOOO....{quote.content}</h1>;
+return <h1 className='text-4xl font-bold text-center '>Hello! Dogar....{quote.content}</h1>;
 
 }
 
